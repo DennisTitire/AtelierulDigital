@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Interface</string>
+    <string name="orange_text">This is an orange TextView</string>
+    <string name="green_text">This is a green TextView</string>
+    <string name="blue_text">This is a blue TextView</string>
+    <string name="button1_text">This is a BUTTON</string>
+    <string name="button2_text">This is a GREEN BUTTON</string>
+    <string name="this_is_an_edittext">This is an EditText</string>
+    <string name="this_is_an_new_edittext">This is an new EditText</string>
+    <string name="notify_me">Notify me :)</string>
+    <string name="auto_backup">Auto backup</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+</resources>
