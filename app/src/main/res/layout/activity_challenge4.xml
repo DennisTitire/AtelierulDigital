@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+    
+    <EditText
+        android:id="@+id/url_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.apple.com"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/url_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="open website"
+        app:layout_constraintStart_toStartOf="@+id/url_et"
+        app:layout_constraintTop_toBottomOf="@+id/url_et" />
+
+    <EditText
+        android:id="@+id/location_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galati"
+        app:layout_constraintStart_toStartOf="@+id/url_btn"
+        app:layout_constraintTop_toBottomOf="@id/url_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/location_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open location"
+        app:layout_constraintStart_toStartOf="@id/location_et"
+        app:layout_constraintTop_toBottomOf="@id/location_et"/>
+
+    <EditText
+        android:id="@+id/share_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We love Android! :)"
+        app:layout_constraintStart_toStartOf="@id/location_btn"
+        app:layout_constraintTop_toBottomOf="@id/location_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share text"
+        app:layout_constraintStart_toStartOf="@id/share_et"
+        app:layout_constraintTop_toBottomOf="@id/share_et"/>
+
+    <EditText
+        android:id="@+id/call_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0722222222"
+        app:layout_constraintStart_toStartOf="@id/share_btn"
+        app:layout_constraintTop_toBottomOf="@id/share_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="call"
+        app:layout_constraintStart_toStartOf="@id/call_et"
+        app:layout_constraintTop_toBottomOf="@id/call_et"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

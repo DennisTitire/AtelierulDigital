@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.aninterface">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +12,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".week9.RegistrationActivity"></activity>
+        <!-- Curs -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity> <!-- login -->
+        <activity android:name=".login.LoginActivity" />
+        <activity android:name=".login.ScrollViewActivity" /> <!-- Week4 -->
+        <activity android:name=".week4.ConstraintLayoutDemo" />
+        <activity android:name=".week4.HappyHolidays" />
+        <activity android:name=".week4.RecyclerViewActivity" /> <!-- Week5 -->
+        <activity android:name=".week5.Activity1" />
+        <activity android:name=".week5.Activity2" />
+        <activity android:name=".week5.Activity1Challenge2" />
+        <activity android:name=".week5.Activity2Challenge2" />
+        <activity android:name=".week5.Activity1Challenge3" />
+        <activity android:name=".week5.Activity2Challenge3" />
+        <activity android:name=".week5.ActivityChallenge4" /> <!-- Week6 -->
+        <activity android:name=".week6.HelloFragmentActivity" />
+        <activity android:name=".week6.HelloFragmentDynamicActivity" />
+        <activity
+            android:name=".week6.NavigationDrawerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".week8.NetworkActivity" />
     </application>
 
 </manifest>

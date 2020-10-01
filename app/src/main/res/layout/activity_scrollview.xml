@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10sp"
+    tools:context=".login.ScrollViewActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8sp">
+
+            <TextView
+                android:id="@+id/textA"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/background_yellow"
+                android:layout_marginEnd="80sp"/>
+
+            <TextView
+                android:id="@+id/textB"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/green"
+                android:layout_toEndOf="@+id/textA"/>
+
+            <TextView
+                android:id="@+id/textC"
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/blue"
+                android:layout_toEndOf="@+id/textB"
+                android:layout_marginEnd="30sp"/>
+
+            <TextView
+                android:layout_width="70sp"
+                android:layout_height="70sp"
+                android:background="@color/orange"
+                android:layout_toEndOf="@+id/textC"/>
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+            <include layout="@layout/dummy_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

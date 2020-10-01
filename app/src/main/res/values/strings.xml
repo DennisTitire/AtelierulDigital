@@ -11,4 +11,44 @@
     <string name="auto_backup">Auto backup</string>
     <string name="yes">YES</string>
     <string name="no">NO</string>
+    <string name="login">LOGIN</string>
+    <string name="email">email</string>
+    <string name="phone">phone</string>
+    <string name="accept">I accept T&amp;C </string>
+    <string name="submit">SUBMIT</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper est non quam condimentum molestie. Aliquam egestas tellus id tristique lacinia. Cras vitae orci fringilla, hendrerit erat vitae, porttitor tortor. Praesent posuere metus nisi, faucibus feugiat ex pretium quis. Sed iaculis ligula imperdiet sem ultrices lobortis. In hac habitasse platea dictumst. Maecenas urna arcu, dictum id quam vitae, interdum rutrum magna. Nam eros justo, aliquet a mattis vel, efficitur ac arcu. Donec quis metus turpis. Fusce id placerat felis, ut pellentesque justo.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="message1">Have yourself a merry Christmas,</string>
+    <string name="message2">Let your heart be light</string>
+    <string name="message3">From now on, our troubles will be out of sight</string>
+
+    <string-array name="programming_languages">
+        <item>C++</item>
+        <item>C#</item>
+        <item>Java</item>
+        <item>Javascript</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>Swift</item>
+        <item>TypeScript</item>
+        <item>VisualStudio</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+
 </resources>

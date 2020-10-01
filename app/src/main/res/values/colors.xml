@@ -12,4 +12,11 @@
     <color name="background_yellow">#F3CC6C</color>
     <color name="background_blue">#77CCC5</color>
     <color name="red">#FF0000</color>
+    <color name="blue_submit">#3D51B5</color>
+    <color name="pink">#E277AE</color>
+    <color name="cl_background">#FEFACD</color>
+    <color name="cl_1">#98FB98</color>
+    <color name="cl_2">#008577</color>
+    <color name="cl_3">#D81B60</color>
+    <color name="button_happy_holidays">#FC4482</color>
 </resources>
